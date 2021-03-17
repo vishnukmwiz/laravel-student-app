@@ -19,10 +19,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Student</a>
+                                <a class="nav-link" href="/">Student</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/faculty">Faculty</a>
+                                <a class="nav-link active" aria-current="page" href="/faculty">Faculty</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link" href="/contact">Contact</a>
@@ -33,19 +33,27 @@
             </nav>
         </div>
         <div class="row">
-            <h2><b><center>Student App</center></b></h2>
+            <h2><b><center>Faculty Page</center></b></h2>
             <div class="col">
                 <table class="table table-borderless">
                     <tr>
-                        <td>Name</td>
+                        <td>Faculty Name</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td>Roll No</td>
+                        <td>Department</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td>Admission No</td>
+                        <td>Address</td>
+                        <td><textarea name="" id="" cols="30" rows="10" class="form-control"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Education Qualification</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
@@ -54,7 +62,7 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><button class="btn btn-success">Submit</button></td>
+                        <td><button class="btn btn-dark">Submit</button></td>
                     </tr>
                 </table>
             </div>
